@@ -241,3 +241,163 @@ i.fa-arrow-right{
     height: 97px;   
 }
 
+
+/*==================== Product Area ======================*/
+
+.products-area{
+    background-color: #f4f4f4;
+    margin-top: 70px;
+}
+
+.products-card-flex img{
+    max-width: 280px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.products{
+    padding: 50px 156px 0px 156px;
+}
+
+
+.product-title-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+} 
+
+.products-card-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.products-card{
+    text-align: center;
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 13px 12px 5px -7px rgba(0,0,0,0.46);
+}
+
+
+.products-card:hover{
+    box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.64);
+}
+
+
+.products-card h2{
+    color: rgb(31, 31, 31);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.products-card p{
+    color: rgb(78, 78, 78);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+.products-card span.product-value{
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.products-card button{
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.products-card button:hover{
+    background-color: green;
+}
+
+.products-card button a{
+    color: white; 
+    text-decoration: none;
+    
+}
+
+
+/*=============== Backpack Area ====================*/
+
+.backpack-area{
+    background-color: #f4f4f4;
+    padding: 70px 0px;
+}
+
+
+/*==================== Footer Area ===================*/
+
+.footer-area{
+    padding: 50px 156px 50px 156px;
+    text-align: center;
+    
+}
+
+.footer-content{
+    padding: 145px 265px;
+    background-color:rgb(255, 242, 241);
+    border-radius: 10px;
+}
+
+.footer-content h1{
+    color: rgb(31, 31, 31);
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer-content p{
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-input-flex{
+    display: flex;
+}
+
+.footer-content input{
+    width: 400px;
+    height: 45px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.footer-content input::placeholder{
+    padding-left: 10px;
+}
+
+.footer-input-flex button{
+    padding: 10px 20px;
+    border: none;
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) 0.004%,rgb(255, 19, 111) 100.004%);
+    border-radius: 0px 5px 5px 0px;
+}
+
+.footer-input-flex button a{
+    color: white;
+    text-decoration: none;
+}
