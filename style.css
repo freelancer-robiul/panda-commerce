@@ -1,0 +1,243 @@
+/*======Common Css=========*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+
+/*================= Custom Css ==================*/
+
+
+/*============== Header section - nav ====================*/
+
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-search{
+    position: relative;
+}
+
+.nav-search input{
+    padding: 15px;
+    width: 500px;
+    height: 48px;
+    border-radius: 66px;
+    background: rgb(241, 241, 241);
+    border: none;
+}
+
+input:hover{
+    background: rgb(230, 245, 230);
+}
+
+input::placeholder{
+    color: rgb(204, 204, 204);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+i.fa-magnifying-glass{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: rgb(186, 186, 186);
+}
+
+/*================= nav-menu ==================*/
+
+.nav-menu{
+    padding: 50px 0px;
+}
+
+.nav-menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu ul li{
+    list-style: none;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(204, 204, 204);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nav-menu ul li a:hover{
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    transition: 0.9s;
+}
+
+/*============== Banner Section ==================*/
+
+.banner-section-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(254, 234, 233);
+    padding: 40px 65px 40px 45px;
+    border-radius: 10px;
+    gap: 100px;
+}
+
+.banner-tv img{
+    width: 402px;
+    height: 378px;
+}
+
+.banner-content h1{
+    color: rgb(31, 31, 31);
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+    width: 565px;
+}
+
+.banner-content p{
+    color: rgb(78, 78, 78);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+    width: 456px;
+    height: 97px;
+}
+
+span.product-value{
+    color: rgb(255, 19, 111);
+    font-family: Poppins;
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: block;
+}
+
+.btn-button{
+    border-radius: 6px;
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    border: none;
+    padding: 15px 35px;
+    margin-top: 10px;
+}
+
+.btn-button a{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-decoration: none;
+    
+}
+
+i.fa-arrow-right{
+    color: white;
+    margin-left: 5px;
+}
+
+
+/*================= categories ================*/
+
+.categories{
+    max-width: 1280px;
+    padding: 64px 156px 0px 156px;
+}
+
+.categories h2{
+    margin-bottom: 30px;
+    color: rgb(31, 31, 31);
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    
+}
+
+.categories-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.watch-flex, .bag-flex, .shoes-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.watch-flex{
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+    padding: 15px 30px;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.bag-flex {
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    padding: 15px 30px;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.shoes-flex{
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+    padding: 15px 30px;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.categories-flex h3{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+}
+
+.categories-flex img{
+    width: 100px;
+    height: 97px;   
+}
+
